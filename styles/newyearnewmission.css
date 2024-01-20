@@ -57,8 +57,8 @@ body {
     width: 1600px;
     height: 7335px;
     margin: 100px 350px 0 350px;
-    margin: 50px auto auto auto;
-    
+    margin: 50px auto 0px auto;
+
 }
 
 .discount-text {
@@ -69,7 +69,7 @@ body {
     font-family: Inter;
     font-size: 80px;
     font-weight: 600;
-    margin: 100px 600px auto 600px;
+    margin: 100px 600px 0px 600px;
 }
 
 .holiday-deals {
@@ -80,7 +80,7 @@ body {
     font-weight: 500;
     height: 30px;
     width: 400px;
-    margin: 30px 600px auto 600px;
+    margin: 30px 600px 0px 600px;
 }
 
 .catagories {
@@ -91,7 +91,7 @@ body {
     font-family: Inter;
     font-size: 40px;
     font-weight: 700;
-    margin: 10px 595px auto 595px;
+    margin: 10px 595px 0px 595px;
 }
 
 .happy-new-year-image {
@@ -99,4 +99,43 @@ body {
     height: 500px;
     flex-shrink: 0;
     margin: 20px 400px auto 400px;
+}
+
+.midnight-party {
+    background-image: url('/resources/Vectorrr.png') ;
+    height: 600px;
+    width: 1350px;
+    background-repeat: no-repeat;
+    display: flex;
+    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
+
+.midnight-party-title {
+    height: 150px;
+    width: 670px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    padding: 250px 690px auto 260px;
+}
+
+.midnight-party-description {
+    width: 700px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.group-70 {
+    width: 319.83px;
+    height: 464.662px;
+    padding: 100px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
