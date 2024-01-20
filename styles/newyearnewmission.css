@@ -18,6 +18,11 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    padding-top: 200px;
+
 }
 
 .banner-heading {
@@ -28,6 +33,9 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+    width: 632px;
+    height: 190px;
+    margin: auto;
 }
 
 .banner-wrapper {
@@ -43,4 +51,52 @@ body {
     height: 100%;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.discount {
+    width: 1600px;
+    height: 7335px;
+    margin: 100px 350px 0 350px;
+    margin: 50px auto auto auto;
+    
+}
+
+.discount-text {
+    height: 110px;
+    width: 385px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 100px 600px auto 600px;
+}
+
+.holiday-deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    height: 30px;
+    width: 400px;
+    margin: 30px 600px auto 600px;
+}
+
+.catagories {
+    height: 60px;
+    width: 410px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 595px auto 595px;
+}
+
+.happy-new-year-image {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 20px 400px auto 400px;
 }
