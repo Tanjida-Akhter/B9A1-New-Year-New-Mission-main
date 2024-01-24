@@ -475,3 +475,45 @@ body {
   display: flex;
 }
 
+footer {
+  width: 1600px;
+  height: 609px;
+  flex-shrink: 0;
+  margin: auto;
+  background: #070211;
+}
+
+.address,
+.phone-number,
+.web-site,
+.rights-reserved,
+.unsubscribe {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 375px;
+  height: 80px;
+}
+
+.unsubscribe {
+  background: none;
+  border: none;
+}
+
+.footer-upper-part {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-lower-part {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
