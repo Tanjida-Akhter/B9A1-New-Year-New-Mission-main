@@ -477,10 +477,18 @@ body {
 
 footer {
   width: 1600px;
-  height: 609px;
+  height: 509px;
   flex-shrink: 0;
   margin: auto;
   background: #070211;
+  margin-top: 150px;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.address,
+.phone-num-and-website {
+  padding-bottom: 30px;
 }
 
 .address,
@@ -494,7 +502,6 @@ footer {
   font-weight: 500;
   line-height: 40px;
   width: 375px;
-  height: 80px;
 }
 
 .unsubscribe {
@@ -504,16 +511,26 @@ footer {
 
 .footer-upper-part {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  width: 1300px;
+  margin: auto;
 }
 
 .footer-lower-part {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 30px;
+  width: 1300px;
+  margin: auto;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
   gap: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
